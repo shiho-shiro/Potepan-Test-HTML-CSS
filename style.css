@@ -1,0 +1,423 @@
+html{
+	font-size: 14px;
+	font-family: 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', sans-serif;
+	color: #222;
+}
+*{
+	box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+	margin: 0%;
+	padding: 0%;
+    font-family:"游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.wrap {
+	overflow: hidden;
+}
+@media screen and (max-width: 767px){
+	html{
+		font-size: 15px;
+		font-family:'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', sans-serif;
+		color: #222;
+	}
+}
+@media screen and (max-width: 767px){
+	*{
+		box-sizing: border-box;
+	}
+}
+@media screen and (max-width: 767px){
+	body{
+	 width: 100%;
+     height: 100%;
+	 margin: 0%;
+	 padding: 0%;
+	}
+}
+@media screen and (max-width: 767px){
+	.wrap{
+		overflow: hidden;
+	}
+}
+header{
+	width: 100%;
+}
+@media screen and (max-width: 767px){
+	header{
+		width:100%;
+	}
+}
+.main{
+width: 100%;
+}
+@media screen and (max-width: 767px){
+	.main{
+		width: 100%;
+	}
+}
+.back-image{
+	width: 100%;
+	background-image:url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+    background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+@media screen and (max-width: 767px){
+	.back-image{
+     background-image: none;
+}
+}
+.first-page{
+	width: 100%;
+	padding:0 36px
+}
+@media screen and (max-width: 767px){
+  .first-page{
+	  width: 100%;
+	  padding: 0;
+	  margin: 0;
+	  height: 55px;
+	  background-color: #fff;
+  }
+}
+.logo{
+    float: left;
+}
+@media screen and (max-width: 767px){
+	.logo{
+		width: 100%;
+		padding: 0 20px 0 20px;
+		display: flex;
+        align-items: center;
+		justify-content: space-between;
+	}
+}
+.logo img {
+	width: 180px;
+	padding-top: 20px;
+}
+@media screen and (max-width: 767px){
+	.logo img {
+	width: 150px;
+	}
+}
+.logo :hover{
+    opacity: 0.8;
+}
+.top-respon{
+	display: block;
+}
+@media screen and (max-width: 767px){
+	.humberger{
+		width: 30px;
+		height: 30px;
+		cursor: pointer;
+		position: relative;
+	}
+}
+@media screen and (max-width: 767px){
+	.lines {
+		position: absolute;
+        width: 30px;
+		height: 4px;
+		background-color: #222;
+		border-radius: 10px;
+
+	}
+}
+@media screen and (max-width: 767px){
+	.humberger-line1 {
+		top: 8px;
+	}
+	.humberger-line2{
+		top: 18px;
+	}
+	.humberger-line3{
+		top: 28px;
+	}
+}
+
+.back-image-resopon{
+	display: none;
+}
+@media screen and (max-width: 767px){
+       .back-image-resopon {
+        display:block;
+		width: 100%;
+	   }
+}
+.nav-position{
+	align-items: center;
+	display: inline-block;
+	padding-top: 5px;
+	margin-left: 400px;
+
+}
+.nav{
+  display:flex;
+  padding-right: 36px;
+
+}
+.nav-list{
+	padding-right: 40px;
+
+}
+.nav li{
+	display: inline-block;
+    list-style: none;
+}
+.nav span{
+	display:inline-block;
+    color: black;
+	text-align: center;
+    font-size: 10px;
+	font-weight: bold;
+}
+.nav span::first-line{
+
+	font-weight: 900;
+	font-size: 12px;
+	font-family: 'Lato', sans-serif
+}
+.nav a:hover {
+	opacity: 0.8;
+}
+.top{
+    display: flex;
+    background-color: #f79314;
+    border-radius: 30px;
+}
+.top a {
+     color: #fff;
+     font-size: 12px;
+     padding:12px 20px;
+	 text-decoration: none;
+	 font-family: 'Lato', sans-serif;
+}
+@media screen and (max-width:767px){
+ .nav li{
+	 display: none;
+ }
+}
+
+.middle-range{
+	margin:40px 0 0 200px;
+}
+@media screen and (max-width:767px){
+	.middle-range{
+	width: 100%;
+	margin: 0;
+	padding: 0 20px;
+}
+}
+
+.challenge{
+    margin-right: 58%;
+	margin-bottom: 60px;
+
+}
+.challenge h2{
+	text-align: center;
+	color: #333333;
+	font-size: 38px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	line-height: 54px;
+	margin-bottom: 15px;
+}
+@media screen and (max-width:767px){
+	.challenge{
+		width: 100%;
+		margin-top:-53vw;
+		margin-bottom: 0;
+	}
+}
+@media screen and (max-width:767px){
+	.challenge h2{
+		font-size: 25px;
+		line-height: 36px;
+	}
+}
+.three-images img{
+	vertical-align: middle;
+	margin:8px 0 35px 0 ;
+}
+.three-images img:nth-of-type(2){
+	width: 40%;
+}
+@media screen and (max-width:767px){
+    .three-images {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+     }
+}
+@media screen and (max-width:767px){
+	.three-images img:nth-of-type(1){
+       width: 27.5%;
+	}
+}
+@media screen and (max-width:767px){
+	.three-images img:nth-of-type(3){
+		width: 27.5%;
+	}
+}
+.second a{
+	font-weight: 700;
+    text-decoration: none;
+	align-items: center;
+	border-radius: 38px;
+	font-size: 16px;
+	text-align: center;
+}
+.second a:hover{
+	opacity: 0.8;
+}
+.second a:nth-of-type(1){
+	color: #fff;
+    padding:23px 53px;
+	background-color: #f79314;
+	margin-right: 15px;
+}
+.second a:nth-of-type(2){
+    color: #333333;
+	padding: 25px 25px;
+	border: 1px solid #e0e0e0
+}
+@media screen and (max-width:767px){
+	.second a{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		font-size: 14px;
+	}
+}
+@media screen and (max-width:767px){
+	.second a:first-child{
+        margin-bottom: 10px;
+	}
+}
+@media screen and (max-width:767px){
+	.second a:last-child{
+       padding-top: 10px;
+		height: 45px;
+		margin-bottom: 10px;
+	}
+}
+.explore p{
+	display: inline-block;
+	font-size: 12px;
+	color: #A2A2A4;
+	margin-bottom: 30px;
+}
+.explore a{
+	color: #A2A2A4;
+	text-decoration: none;
+}
+.under-range{
+	background-color: #f79314;
+}
+@media screen and (max-width:767px){
+	.under-range{
+		width: 100%;
+	}
+}
+.info-width{
+	max-width: 100%;
+	padding: 10px 200px;
+	padding-bottom: 30px;
+}
+@media screen and (max-width:767px){
+	.info-width{
+		width:100%;
+		padding: 0 20px 0 20px;
+        margin: 0;
+
+	}
+}
+.potepan-info{
+	display: flex;
+    align-items: center;
+	justify-content: space-between;
+    position: relative;
+}
+@media screen and (max-width:767px){
+	.potepan-info{
+		flex-direction: column;
+		align-items: center;
+	}
+}
+.what-is-potepan{
+	color: #fff;
+	width: 53%;
+}
+@media screen and (max-width:767px){
+	.what-is-potepan{
+		width: 100%;
+	}
+}
+.what-is-potepan h2{
+    font-size: 40px;
+	letter-spacing: -1px;
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width:767px){
+	.what-is-potepan h2{
+		font-size: 26px;
+		text-align: center;
+	}
+}
+.what-is-potepan span{
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+@media screen and (max-width:767px){
+	.what-is-potepan span{
+		font-size: 25px;
+		letter-spacing: 1px;
+	}
+}
+.what-is-potepan p {
+    line-height: 26px;
+}
+
+.last a{
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    color: #f79314;
+    font-size: 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    padding:10px 60px
+}
+@media screen and (max-width:767px){
+	.last a{
+		text-align: center;
+         margin-top:20px;
+		 margin-left: auto;
+		 margin-right: auto;
+		 margin-bottom: 30px;
+	}
+}
+.last span{
+    display: block;
+}
+.last span:first-child{
+    letter-spacing: 4px;
+    line-height: 1.3;
+    font-family: 'Lato', sans-serif;
+}
+.last span:last-child{
+    font-size: 12px;
+}
+.last:hover{
+	opacity: 0.8;
+}
